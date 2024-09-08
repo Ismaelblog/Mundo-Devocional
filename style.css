@@ -14,19 +14,33 @@ body {
     padding: 0; /* Remove o padding padrão */
 }
 
+body {
+    background-image: url('imagens/trilhadafé.png');
+    /* Adicione outras propriedades para personalizar o fundo, como: */
+    background-size: cover; /* Ajusta a imagem para cobrir toda a área */
+    background-repeat: no-repeat; /* Impede que a imagem se repita */
+    background-position: center; /* Centraliza a imagem */
+}
+
 /* Estiliza os títulos h1 */
 h1 {
+    font-family: 'Montserrat';
     font-size: 3.0rem; /* Tamanho da fonte */
-    color: #222831; /* Cor do texto */
+    color: #1a2b45; /* Cor do texto */
     text-align: center; /* Alinha o texto ao centro */
     letter-spacing: 0.4rem; /* Espaçamento entre letras */
+    text-transform: uppercase;
+    text-shadow: 2px 2px 4px rgba(48, 70, 87, 0.5);
+    background-color: #daf0f8;
+    padding: 20px;
+    border-radius: 10px;
+    animation: fadeIn 1s ease-in-out;
 }
 
 #abertura {
     font-size: 15px; /* Tamanho da fonte */
     color: #222831; /* Cor do texto */
     text-align: center; /* Alinha o texto ao centro */
-    letter-spacing:; /* Espaçamento entre letras */
 }
 
 /* Estiliza as seções da página */
@@ -62,8 +76,8 @@ section button {
 
 /* Adiciona efeito hover ao botão de pesquisa */
 section button:hover {
-    background-color: #30475E; /* Muda a cor de fundo ao passar o mouse */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adiciona uma sombra mais intensa */
+    background-color: #0773df; /* Muda a cor de fundo ao passar o mouse */
+    box-shadow: 0 4px 8px rgba(204, 223, 234, 0.958); /* Adiciona uma sombra mais intensa */
 }
 
 /* Estiliza a caixa de resultados da pesquisa */

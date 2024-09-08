@@ -27,7 +27,7 @@ function pesquisar() {
       tags = dado.tags.toLowerCase()
 
       // se o titulo includes campoPesquisa
-      if (titulo.includes(campoPesquisa) || descrição.includes(campoPesquisa) || tags.includes(campoPesquisa))  {
+      if (titulo.includes(campoPesquisa) || descrição.includes(campoPesquisa) || tags.includes(campoPesquisa)) {
       //cria um novo elemento
       resultados += `
         <div class="item-resultado">
@@ -38,12 +38,11 @@ function pesquisar() {
           <a href="${dado.link}" target="_blank">Adquira o Livro</a>
         </div>
       `;
-      }
 
       if (!resultados) {
           resultados = "Nenhum Devocional Encontrado."
       }
-
+    }
     // Atribui a string com os resultados ao conteúdo da seção.
     section.innerHTML = resultados;
   }
