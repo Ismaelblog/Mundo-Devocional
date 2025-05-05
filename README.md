@@ -18,6 +18,8 @@ Um cantinho especial na internet dedicado a quem busca inspiração e alimento p
 
 É simples! Basta digitar uma palavra-chave relacionada ao tema que você busca e pronto! Nosso buscador inteligente te apresenta os devocionais mais relevantes. 
 
+<a href="https://mundo-devocional.vercel.app/" target="_blank">**🔗ACESSE O DEPLOY**</a>
+
 **Tecnologias Utilizadas:**
 
 * **HTML:** A estrutura básica da nossa página.
